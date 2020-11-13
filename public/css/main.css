@@ -1,0 +1,53 @@
+/* css são folhas de estilo
+
+O que é uma regra css
+
+é composta de seletor body{}
+dentro das chaves tem uma declaração color e o valor red
+ selector body 
+body { abrir
+	 declaration 
+
+   property: value; 
+	color: red;   -> declaração 
+}fechar   end of rule 
+
+a importancia da regra é a ultima adiciona, funciona como cascata
+se colocar o css direto como um elemento ele é o que vale por cima dos outros
+o segundo é a tag style dentro do proprio html, mas ainda segue a ordem de cascata
+isso se o link estiver depois da tag style
+
+tipo do seletor
+id é um atributo global, colocando a # se refere ao id, para procurar o elemento com o id
+ai a cascata ja nao tem mais forca e quem ganha é a especificidade
+!important para definir como mais importante 
+
+funcao(...,...,..);
+
+layout responsive é aquele que se adapta para o desktop e para mobile 
+usando o mobile first, primeiro fazer se adaptar para 
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  color: white;
+  background: #EBF2F5;
+}
+:root {
+  font-size: 62.5%;
+}
+body,
+input,
+button,
+textarea {
+  /*  font-weight: 400;
+    font-size:18px;
+    line-height:1;
+    font-family: 'Nunito', sans-serif;*/ /* isso foi reduzido para o comando abaixo*/
+
+  font: 400 1.8rem/1 "Nunito", sans-serif;
+}

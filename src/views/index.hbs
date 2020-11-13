@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <!-- diz para o browser que a linguagem do meu documento é brasileiro-->
+  <head>
+    <meta charset="UTF-8" />
+    <!-- charset é um conjunto de caracteres especiais
+    UTF-8 é o mais usado  -->
+    <!-- meta dados são configurações do html-->
+    <!--existem tags que nao tem fechamento padrao, pq elas nao tem escrita dentro dela
+    só tem escrita no proprio atributo, possuindo um fechamento automatico -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--é capaz de fazer que nossa aplicação se adapte a telas menores
+    diretorio = pasta-->
+    <title>Happy</title>
+    <link rel="icon" href="/images/logo-icon.png" />
+    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="/css/animations.css" />
+    <link rel="stylesheet" href="/css/page-landing.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- dentro do href com o ./ eu vou para o diretorio raiz
+    rel é o relacionamento hreg é o direcionamento -->
+  </head>
+  <body>
+    <div id="page-landing">
+      <div id="container">
+        <header>
+          <img
+            class="animate-up"
+            id="logo"
+            src="/images/logo.svg"
+            alt="Logomarca de Happy"
+          />
+          <div class="location animate-up">
+            <strong>Rio do Sul</strong
+            ><!--strong para deixar o texo em negrito -->
+            <p>Santa Catarina</p>
+            <!-- p é paragrafo-->
+          </div>
+          <!--div é um container generico, que nao tem um objetivo claro, é uma caixa que posso colocar coisas dentros-->
+          <!-- header é pra definir o cabeçalho, src é o caminho, alt é pra ter mais semantica, colocar um texto para dizer oq é a imagem-->
+        </header>
+
+        <main>
+          <!-- conteudo principal da pagina-->
+          <h1 class="animate-up">Leve felicidade para o mundo</h1>
+          <!--Estilo block-->
+          <section class="visit">
+            <p class="animate-up">
+              Visite orfanatos e mude o dia de muitas crianças
+            </p>
+
+            <a href="/orphanages" title="Visite orfanatos" class="animate-up">
+              <img src="/images/arrow.svg" alt="ir para o mapa" /> </a
+            ><!-- botao com link-->
+          </section>
+          <!-- seção-->
+        </main>
+      </div>
+    </div>
+  </body>
+</html>
+<!--
+Alguns comandos são tem como padrao o display do tipo block 
+que vao ocupar toda a linha da tela, colocando o proximo conteudo a baixo, como o p
+display inline, o proximo conteudo fica ao lado, como o strong 
+-comentario em html-
+totas as tagas podem chamar o title, pq ele é global
+HTML
+Hypertext 
+      hipertexto 
+      sao textos que contem links
+ 
+Markup 
+     são marcações de <tags> htmls
+
+Language
+     linguagem
+    html não é uma linguagem de programação
+    sintaxe
+    é uma linguagem de escrita
+    se diz que se sabe fazer documentos em html
+-->
